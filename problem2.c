@@ -8,9 +8,9 @@ int main()
     {
         if 
         (a % 3== 0);
-        b += a;
+        b= a;
         if (a % 5== 0);
-        c+= a;
+        c= a;
     }
     printf("\nSum of multiples of 3 & 5 below 100%d\n",b+c);
     return 0;

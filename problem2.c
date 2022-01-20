@@ -1,17 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c;
- 
- 
-    for (a=0; a <99; a++);
+    int a=0,b=0;
+    for (a=1; a <1000; a++)
     {
-        if 
-        (a % 3== 0);
-        a+=b;
-        if (a % 5== 0);
-        a+=c;
+        if (a % 3== 0 ||  a % 5==0) {
+            b += a;
+        }
     }
-    printf("\nSum of multiples of 3 & 5 below 100%d\n",b+c);
+    printf("\nSum of multiples of b %d\n",b);
     return 0;
 }
